@@ -17,8 +17,7 @@ outputTable.innerHTML = `
 const promises = [
   createRandomPromise('Promise 1'),
   createRandomPromise('Promise 2'),
-  createRandomPromise('Promise 3'),
-  createRandomPromise('Promise 4')
+  createRandomPromise('Promise 3')
 ];
 
 Promise.all(promises).then(results => {
